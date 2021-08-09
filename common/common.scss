@@ -53,12 +53,12 @@
   grid-template-columns: 1fr 1fr;
   .group-box {
     background-color: var(--secondary);
-    border: 0 !important;
+    border: 1 !important;
     border-radius: 12px;
     color: var(--primary);
     padding: 0px;
-    border-style:solid;
 //    box-shadow: 0 24px 40px rgba(0,0,0,.07),0 10.8529px 24.1177px rgba(0,0,0,.0456112),0 4.50776px 10.0172px rgba(0,0,0,.035),0 1.63037px 3.62304px rgba(0,0,0,.0243888);
+    box-shadow: 0px 0px 10px #888888;
     .group-avatar-flair {
       grid-area: group-image;
       .avatar-flair {
